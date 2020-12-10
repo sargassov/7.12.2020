@@ -8,7 +8,7 @@ public class Program {
     public static void main(String[] args) throws InterruptedException {
         while (true) {
             System.out.print("\t\t\t\t\tДля того, чтобы сыграть в угадай число нужно нажать == > \"1\"\n" +
-                    "\t\t\t\t\tДля того, чтобы сыграть в угадай слово нужно нажать ==> \"2\"\n" +
+                    "\t\t\t\t\tДля того, чтобы сыграть в угадай слово нужно нажать ==> \"2\"\n"+
                     "\t\t\t\t\tДЛя того, чтобы разделить предложения нужна нажать ==> \"3\": ");
 
             int userChoise = corrector(0, 3);
